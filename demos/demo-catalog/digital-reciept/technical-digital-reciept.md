@@ -27,7 +27,7 @@ The platform integrates retailer POS systems and a consumer mobile app via the B
 ### External Dependencies
 | Service      | Purpose                 | Version | Documentation                                               |
 |--------------|-------------------------|---------|------------------------------------------------------------|
-| @bsv/sdk     | BSV blockchain handling | Latest  | [@bsv/sdk](https://github.com/bsv-blockchain/bsv-sdk)      |
+| @bsv/sdk     | BSV blockchain handling | Latest  | [@bsv/sdk](https://github.com/bsv-blockchain/ts-sdk)      |
 | expo-barcode-scanner | QR code scanning  | Latest  | [Expo Barcode Scanner](https://docs.expo.dev/versions/latest/sdk/camera/#component) |
 | AsyncStorage | Local storage           | Latest  | [AsyncStorage Docs](https://react-native-async-storage.github.io/async-storage/) |
 

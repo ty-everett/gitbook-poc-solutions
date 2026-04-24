@@ -157,7 +157,7 @@ Before relying on your backup:
 ### Integration with BSV Wallets
 Use Secure ATX to backup:
 - BSV wallet seed phrases (12 or 24 words)
-- Private keys from Metanet Desktop
+- Private keys from BSV Desktop
 - BRC-42 identity keys
 - Any cryptographic material
 

@@ -11,7 +11,7 @@ Pay-QuickR is a client-side React application that demonstrates BSV blockchain w
 
 ### Technology Stack
 - **Frontend**: React 19, TypeScript
-- **Blockchain SDK**: @bsv/sdk v1.7.6
+- **Blockchain SDK**: current @bsv/sdk v2
 - **Build Tool**: Vite
 - **Infrastructure**: Client-side only (no backend required)
 
@@ -26,7 +26,7 @@ Pay-QuickR is a client-side React application that demonstrates BSV blockchain w
 ### External Dependencies
 | Service | Purpose | Version | Documentation |
 |---------|---------|---------|---------------|
-| @bsv/sdk | BSV blockchain operations | v1.7.6 | [BSV SDK Docs](https://docs.bsvblockchain.org/) |
+| @bsv/sdk | BSV blockchain operations | v2.x | [BSV SDK Docs](https://docs.bsvblockchain.org/) |
 | React | UI framework | 19 | [React Docs](https://react.dev/) |
 | Vite | Build tool | Latest | [Vite Docs](https://vitejs.dev/) |
 

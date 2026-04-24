@@ -10,7 +10,7 @@
 Traditional payment systems often involve complex intermediaries, high fees, and lengthy settlement times. Businesses and developers need a straightforward way to integrate blockchain-based payments that are fast, cost-effective, and demonstrate the power of the BSV blockchain for instant micropayments.
 
 ### Solution Overview
-Pay-QuickR is a React TypeScript demonstration project that showcases BSV blockchain wallet integration using @bsv/sdk v1.7.6. It provides a practical example of wallet authentication, public key retrieval, and QR code generation for developers learning BSV blockchain development.
+Pay-QuickR is a React TypeScript demonstration project that showcases BSV blockchain wallet integration using current @bsv/sdk v2. It provides a practical example of wallet authentication, public key retrieval, and QR code generation for developers learning BSV blockchain development.
 
 ### Key Benefits
 - **Instant Payments**: Leverage BSV blockchain's fast transaction processing

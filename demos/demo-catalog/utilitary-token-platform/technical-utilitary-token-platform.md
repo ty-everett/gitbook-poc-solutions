@@ -13,7 +13,7 @@ Multi-tier architecture with React frontend for token management, Node.js overla
 - **Frontend**: React, TypeScript, Vite
 - **Backend**: Node.js, Express
 - **Database**: MongoDB with indexed queries
-- **Blockchain SDK**: @bsv/sdk, @bsv/overlay-tools
+- **Blockchain SDK**: @bsv/sdk, @bsv/overlay
 - **Infrastructure**: Cloud-hosted overlay service
 
 ### Key Components
@@ -29,7 +29,7 @@ Multi-tier architecture with React frontend for token management, Node.js overla
 | Service | Purpose | Version | Documentation |
 |---------|---------|---------|---------------|
 | @bsv/sdk | Transaction and token creation | Latest | docs.bsvblockchain.org |
-| @bsv/overlay-tools | Overlay service framework | Latest | github.com/bitcoin-sv/overlay-tools |
+| @bsv/overlay | Overlay service framework | Latest | github.com/bsv-blockchain/overlay-services |
 | MongoDB | UTXO indexing and storage | 5.0+ | mongodb.com/docs |
 | BSV Desktop Wallet | User wallet and signing | Latest | desktop.bsvb.tech |
 

@@ -198,7 +198,7 @@ Weather data platform demonstrating real-world data integration with BSV blockch
 
 Before using most BSV applications, you'll need:
 
-1. **BSV Wallet:** Most commonly BSV Desktop Wallet (Metanet Desktop)
+1. **BSV Wallet:** Most commonly BSV Desktop Wallet (BSV Desktop)
    - [Get BSV Desktop Guide](../metanet-desktop-mainnet.md)
    - [BSV Wallet Setup Instructions](../README.md)
 
@@ -319,7 +319,7 @@ BSV apps commonly use:
 - **BRC Standards:** Protocol specifications for interoperability
 - **Paymail Protocol:** Human-readable payment addressing
 - **UHRP:** Universal Hash Resolution Protocol
-- **Babbage SDK:** Development toolkit for BSV applications
+- **BSV TypeScript SDK:** Development toolkit for BSV applications
 
 ### Open Source Examples
 

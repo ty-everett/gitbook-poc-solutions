@@ -12,7 +12,7 @@ Pollr is a full-stack decentralized polling application built on the BSV blockch
 ### Technology Stack
 - **Frontend**: React 18.3.1, TypeScript 5.8.3, Material-UI 7.0.2
 - **Backend**: Node.js with TypeScript 5.2.2, MongoDB 6.11.0
-- **Blockchain SDK**: @bsv/sdk v1.6.22 (backend), v1.7.6 (frontend)
+- **Blockchain SDK**: current @bsv/sdk v2
 - **Build Tools**: Webpack 5.74.0, Babel
 - **Infrastructure**: MetaNet Client overlay network
 
@@ -28,7 +28,7 @@ Pollr is a full-stack decentralized polling application built on the BSV blockch
 ### External Dependencies
 | Service | Purpose | Version | Documentation |
 |---------|---------|---------|---------------|
-| @bsv/sdk | BSV blockchain operations | v1.6.22/v1.7.6 | [BSV SDK Docs](https://docs.bsvblockchain.org/) |
+| @bsv/sdk | BSV blockchain operations | v2.x | [BSV SDK Docs](https://docs.bsvblockchain.org/) |
 | @bsv/overlay | Overlay services integration | v0.4.6 | [Overlay Documentation](https://docs.bsvblockchain.org/) |
 | @bsv/uhrp-react | Universal Hash Resolution Protocol | Latest | [UHRP Docs](https://docs.bsvblockchain.org/) |
 | MongoDB | Database for poll storage | v6.11.0 | [MongoDB Docs](https://docs.mongodb.com/) |

@@ -27,8 +27,8 @@ Full-stack application with a Next.js frontend and Express.js backend, connectin
 ### External Dependencies
 | Service | Purpose | Version | Documentation |
 |---------|---------|---------|---------------|
-| @bsv/sdk | Certificates, AuthFetch, WalletClient, cryptography | 1.10.1+ | docs.bsvblockchain.org |
-| @bsv/wallet-toolbox-client | Server-side full Wallet with storage and chain services | 1.7.18+ | docs.bsvblockchain.org |
+| @bsv/sdk | Certificates, AuthFetch, WalletClient, cryptography | 2.x | docs.bsvblockchain.org |
+| @bsv/wallet-toolbox-client | Server-side full Wallet with storage and chain services | 2.x | docs.bsvblockchain.org |
 | @bsv/auth-express-middleware | Express middleware for BRC-31 mutual authentication | 1.2.3+ | docs.bsvblockchain.org |
 | BSV Desktop Wallet | User key management, certificate storage, signing | Latest | desktop.bsvb.tech |
 

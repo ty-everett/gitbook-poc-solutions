@@ -8,7 +8,7 @@
 
 ## 1. What Is PeerPay?
 
-PeerPay is a peer-to-peer payment application that revolutionizes how individuals send and receive BSV cryptocurrency. Built on the Babbage SDK infrastructure, PeerPay eliminates the complexity of blockchain addresses by using identity-based payments - simply search for someone by their identity key and send them SATS instantly.
+PeerPay is a peer-to-peer payment application that revolutionizes how individuals send and receive BSV cryptocurrency. Built on the BSV TypeScript SDK infrastructure, PeerPay eliminates the complexity of blockchain addresses by using identity-based payments - simply search for someone by their identity key and send them SATS instantly.
 
 **Key Features:**
 - **Identity-Based Payments** - Send money using identity keys instead of complex blockchain addresses
@@ -26,7 +26,7 @@ PeerPay is a peer-to-peer payment application that revolutionizes how individual
 ## 2. Before You Begin
 
 ### Prerequisites
-- **BSV Wallet:** BSV Desktop Wallet or compatible Babbage-enabled wallet
+- **BSV Wallet:** BSV Desktop Wallet or BRC-100 compatible wallet
 - **BSV Identity:** Identity key for receiving payments and user discovery
 - **Web Browser:** Modern browser with JavaScript enabled
 - **BSV Balance:** SATS for sending payments (minimal amounts for testing)
@@ -35,12 +35,12 @@ PeerPay is a peer-to-peer payment application that revolutionizes how individual
 ### Supported Platforms
 - **Web-based:** Access via https://peerpay.babbage.systems/
 - **Cross-platform:** Works on desktop and mobile browsers
-- **Babbage SDK Integration:** Compatible with all Babbage-enabled wallets
+- **BSV SDK Integration:** Compatible with all BRC-100 compatible wallets
 - **No Installation Required:** Pure web application
 
-### Babbage Identity Setup
-PeerPay relies on the Babbage identity system for peer discovery. If you're using BSV Desktop Wallet, your identity is already configured. For other wallets:
-- Ensure your wallet supports Babbage SDK
+### BRC-100 Identity Setup
+PeerPay relies on the BRC-100 identity flow for peer discovery. If you're using BSV Desktop Wallet, your identity is already configured. For other wallets:
+- Ensure your wallet supports BSV TypeScript SDK
 - Verify your identity key is active
 - Share your identity key with people who need to send you payments
 
@@ -52,7 +52,7 @@ PeerPay relies on the Babbage identity system for peer discovery. If you're usin
 1. Navigate to **https://peerpay.babbage.systems/** in your web browser
 2. The PeerPay interface will load
 3. Ensure your BSV wallet is running in the background
-4. The application will automatically detect your Babbage-enabled wallet
+4. The application will automatically detect your BRC-100 compatible wallet
 
 ### Step 2: Connect Your Wallet
 1. PeerPay will request connection to your BSV wallet
@@ -66,7 +66,7 @@ PeerPay relies on the Babbage identity system for peer discovery. If you're usin
 ### Step 3: Find a Peer by Identity
 1. Locate the **Search** or **Find User** field
 2. Enter the recipient's **BSV identity key**
-3. The system searches the Babbage identity network
+3. The system searches the BRC-100 identity and discovery flow
 4. Matching user(s) appear in search results
 5. Verify you've selected the correct recipient
 6. Click on the user to proceed to payment
@@ -149,7 +149,7 @@ PeerPay relies on the Babbage identity system for peer discovery. If you're usin
 - **Dispute Documentation:** Blockchain records provide immutable transaction proof
 
 ### Developer Integration
-- **Babbage SDK:** Build custom applications using the same payment infrastructure
+- **BSV TypeScript SDK:** Build custom applications using the same payment infrastructure
 - **API Access:** Integrate PeerPay functionality into other applications
 - **GitHub Repository:** Access open-source code for customization
 - **Payment Protocols:** Implement standardized payment flows
@@ -163,11 +163,11 @@ PeerPay relies on the Babbage identity system for peer discovery. If you're usin
 
 | Problem | Cause | Solution |
 |---------|-------|----------|
-| Cannot find recipient | Invalid identity key | Double-check identity key format; verify recipient has active Babbage identity |
+| Cannot find recipient | Invalid identity key | Double-check identity key format; verify recipient has active BRC-100-compatible identity |
 | Payment fails to send | Insufficient SATS balance | Check wallet balance; ensure enough SATS to cover amount plus fees |
 | Wallet not connecting | BSV wallet not running | Launch BSV Desktop or compatible wallet; refresh PeerPay page |
 | Payment stuck pending | Network delay | Wait for blockchain confirmation; BSV typically confirms within minutes |
-| Identity search returns no results | Recipient not on Babbage network | Verify recipient uses Babbage-compatible wallet; check identity key accuracy |
+| Identity search returns no results | Recipient not on BRC-100 wallet ecosystem | Verify recipient uses BRC-100 compatible wallet; check identity key accuracy |
 | History not loading | Browser cache issue | Clear browser cache; refresh page; check internet connection |
 
 ### Tips for Smooth Transactions
@@ -182,7 +182,7 @@ PeerPay relies on the Babbage identity system for peer discovery. If you're usin
 - **Babbage Systems:** Contact [Babbage Systems](https://babbage.systems/) for infrastructure support
 - **Community Forums:** Join BSV developer communities for peer assistance
 - **Wallet Support:** Contact your wallet provider for connection issues
-- **Documentation:** Review Babbage SDK documentation for technical details
+- **Documentation:** Review BSV TypeScript SDK documentation for technical details
 
 ---
 
@@ -212,21 +212,21 @@ PeerPay relies on the Babbage identity system for peer discovery. If you're usin
 
 ### Development and Customization
 - **Fork on GitHub:** Customize PeerPay for your specific needs
-- **Babbage SDK Integration:** Build new applications with identity-based payments
+- **BSV SDK Integration:** Build new applications with identity-based payments
 - **Payment Workflows:** Design custom payment processes for your use case
 - **UI Modifications:** Adapt the interface for your branding or requirements
-- **API Extensions:** Add new features using the Babbage infrastructure
+- **API Extensions:** Add new features using the BSV wallet and identity infrastructure
 
 ### Related Resources
-- **Babbage SDK Documentation:** Learn about the underlying technology
+- **BSV TypeScript SDK Documentation:** Learn about the underlying technology
 - **BSV Identity System:** Understand how BSV identity works
 - **Payment Protocols:** Study BSV payment standards and best practices
 - **Smart Contracts:** Explore more advanced blockchain payment mechanisms
-- **Community Projects:** Discover other Babbage-powered applications
+- **Community Projects:** Discover other BSV-powered applications
 
 ### Stay Updated
 - **GitHub Releases:** Watch the repository for updates and new features
-- **Babbage Announcements:** Follow Babbage Systems for infrastructure updates
+- **BSV ecosystem updates:** Follow Babbage Systems for infrastructure updates
 - **BSV Development:** Stay informed about BSV protocol improvements
 - **Community Contributions:** Contribute to or suggest improvements for PeerPay
 - **Integration Examples:** Look for new use cases and integration tutorials
@@ -234,7 +234,7 @@ PeerPay relies on the Babbage identity system for peer discovery. If you're usin
 ---
 
 **Quick Links:**
-[BSV Desktop Guide](../metanet-desktop-mainnet.md) | [BSV Getting Started](../README.md) | [SocialCert Identity](SocialCert.md) | [Babbage SDK](https://babbage.systems/)
+[BSV Desktop Guide](../metanet-desktop-mainnet.md) | [BSV Getting Started](../README.md) | [SocialCert Identity](SocialCert.md) | [BSV TypeScript SDK](https://github.com/bsv-blockchain/ts-sdk)
 
 ---
 

@@ -25,7 +25,7 @@ CoolCert is a playful yet functional identity certification system built on the 
 ## 2. Before You Begin
 
 ### Prerequisites
-- **BSV Wallet:** BRC-100 compatible wallet (Metanet Desktop recommended)
+- **BSV Wallet:** BRC-100 compatible wallet (BSV Desktop or another BRC-100 wallet recommended)
 - **Web Browser:** Modern browser with JavaScript enabled
 - **BSV Balance:** Small amount of BSV for certificate issuance transaction
 
@@ -155,7 +155,7 @@ While CoolCert is playful, the technology demonstrates:
 - Use CoolCert-provided digital IDs in partner apps like [MarsCast](./MarsCast.md)
 - Integrate certificate verification in your own applications
 - Build identity-gated features using CoolCert as template
-- Explore other Babbage Systems identity tools
+- Explore other BSV identity tools
 
 ### For Developers
 - **Review on GitHub:** Study source code for learning purposes
@@ -174,7 +174,7 @@ CoolCert demonstrates technology suitable for:
 ### Related BSV Apps
 - [MarsCast](./MarsCast.md) - Uses CoolCert for API access authentication
 - [SocialCert](./SocialCert.md) - Multi-platform identity verification
-- [Metanet Desktop](../metanet-desktop-mainnet.md) - BSV wallet and identity management
+- [BSV Desktop](../metanet-desktop-mainnet.md) - BSV wallet and identity management
 
 ---
 
